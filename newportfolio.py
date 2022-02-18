@@ -1,6 +1,4 @@
 from tkinter import *
-import tkinter
-from tkinter import font
 import matplotlib.pyplot as plt
 import json
 from requests import Request, Session
@@ -18,7 +16,7 @@ def get_coin_id(crypto_sym):
   }
   headers = {
     'Accepts': 'application/json',
-    'X-CMC_PRO_API_KEY': 'API KEY',
+    'X-CMC_PRO_API_KEY': 'KEY',
   }
 
   session = Session()
