@@ -18,7 +18,7 @@ def get_coin_id(crypto_sym):
   }
   headers = {
     'Accepts': 'application/json',
-    'X-CMC_PRO_API_KEY': '36d40691-0746-41b3-872d-2fcc232d69c9',
+    'X-CMC_PRO_API_KEY': 'API KEY',
   }
 
   session = Session()
