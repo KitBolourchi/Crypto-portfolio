@@ -4,7 +4,6 @@ import json
 from requests import Request, Session
 import time
 import pprint
-
 from requests.api import get
 
 
@@ -38,7 +37,7 @@ def get_price(crypto, id):
   }
   headers = {
     'Accepts': 'application/json',
-    'X-CMC_PRO_API_KEY': '36d40691-0746-41b3-872d-2fcc232d69c9',
+    'X-CMC_PRO_API_KEY': 'KEY',
   }
 
   session = Session()
@@ -57,7 +56,7 @@ def get_percent_change(crypto, id, time):
   }
   headers = {
     'Accepts': 'application/json',
-    'X-CMC_PRO_API_KEY': '36d40691-0746-41b3-872d-2fcc232d69c9',
+    'X-CMC_PRO_API_KEY': 'KEY',
   }
 
   session = Session()
